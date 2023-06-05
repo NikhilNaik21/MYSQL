@@ -23,7 +23,6 @@ select all records where the City column has the value "Berlin"
 
 10.Select all records where the City column has the value 'Berlin' and the PostalCode column has the value 12209.
 
-
 11.Select all records where the City column has the value 'Berlin' or 'London'.
 
 12. Select all records from the Customers table, sort the result alphabetically by the column City.
@@ -58,7 +57,6 @@ in the Customers table.
 
 26.Use an SQL function to calculate the sum of all the Price column values in the Products table.
 
-
 27.Select all records where the value of the City column starts with the letter "a".
 
 28.Select all records where the value of the City column ends with the letter "a".
@@ -89,9 +87,7 @@ in the Customers table.
 
 41.When displaying the Customers table, refer to the table as Consumers instead of Customers
 
-
 42. Insert the missing parts in the JOIN clause to join the two tables Orders and Customers, using the CustomerID field in both tables as the relationship between the two tables.
-
 
 43. Choose the correct JOIN clause to select all records from the two tables where there is a match in both tables
 
