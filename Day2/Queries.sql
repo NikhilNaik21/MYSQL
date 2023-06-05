@@ -766,3 +766,4 @@ mysql> select ename from emp  where comm!='null';
 3 rows in set, 1 warning (0.01 sec)
 
 mysql> exit;
+
