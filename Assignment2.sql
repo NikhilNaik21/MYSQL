@@ -12,7 +12,7 @@ mysql> create table customers(
     -> );
 Query OK, 0 rows affected (0.03 sec)
 
-
+mysql> select * from customers;
 
 mysql> alter table customers add column Postalcode int;
 Query OK, 0 rows affected (0.03 sec)
