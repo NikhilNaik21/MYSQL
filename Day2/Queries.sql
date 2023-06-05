@@ -1,5 +1,4 @@
-
- show databases;
+show databases;
  use cdac;
   show tables;
   //date + time
