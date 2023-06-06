@@ -60,6 +60,7 @@ mysql> select * from emp1;
 +-------+--------+---------+------------+--------+
 2 rows in set (0.00 sec)
 
+-- creating table emp1 with constraints
 mysql>   create table emp1(
     ->           empno varchar(4) primary key
     ->           check (empno like 'e%'),
