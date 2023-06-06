@@ -1103,4 +1103,13 @@ mysql> call nikhil();
 4 rows in set (0.02 sec)
 
 Query OK, 0 rows affected (0.02 sec)
+mysql> delimiter //
+mysql> create procedure pr1()
+    -> begin
+    -> select * from emp;
+    -> select * from emp where salary>1000;
+    -> select * from dept;
+    -> end;
+    -> //
 
+mysql> delimiter ;
