@@ -169,6 +169,7 @@ mysql> select * from emp;
 +-------+--------+----------+------+------------+---------+---------+--------+
 12 rows in set (0.00 sec)
 
+--alter command in  table emp ---To add new column in existing table
 mysql> alter table emp add column Nikhil varchar(20);
 Query OK, 0 rows affected (0.05 sec)
 Records: 0  Duplicates: 0  Warnings: 0
