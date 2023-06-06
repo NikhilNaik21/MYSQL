@@ -1113,3 +1113,4 @@ mysql> create procedure pr1()
     -> //
 
 mysql> delimiter ;
+     -> call nikhil();
