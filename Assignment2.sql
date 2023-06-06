@@ -21,7 +21,8 @@ Query OK, 0 rows affected (0.03 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
 mysql> alter table customers add  Postalcode int;
-ERROR 1060 (42S21): Duplicate column name 'Postalcode'
+
+--displaying the structure of table
 mysql> desc customers
     -> ;
 +--------------+-------------+------+-----+---------+-------+
