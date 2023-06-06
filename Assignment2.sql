@@ -1,6 +1,8 @@
+-- creating database practice
 mysql> create database practice;
 Query OK, 1 row affected (0.06 sec)
 
+--using database practice to work upon it
 mysql> use practice;
 Database changed
 mysql> create table customers(
