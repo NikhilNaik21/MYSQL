@@ -5,8 +5,10 @@ mysql> create table(
     -> ename varchar(20),
     -> salary numeric(10,2));
 
-
 mysql> system table();
+
+
+-- displaying the user
 mysql> select user();
 +----------------+
 | user()         |
@@ -22,6 +24,8 @@ mysql> select database();
 | cdac       |
 +------------+
 1 row in set (0.00 sec)
+
+
 mysql> select curtime();
 +-----------+
 | curtime() |
