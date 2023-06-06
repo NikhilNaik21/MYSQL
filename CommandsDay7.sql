@@ -29,7 +29,7 @@ mysql> select * from dept1;
 |     90 | Finance | Pune   |
 +--------+---------+--------+
 2 rows in set (0.01 sec)
-
+--Displaying emp table
 mysql> select * from emp
     -> ;
 +-------+--------+----------+------+------------+---------+---------+--------+
