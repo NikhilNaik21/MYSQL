@@ -120,6 +120,9 @@ mysql> select ename,round(datediff(curdate(),hiredate)/365) as expre from emp;
 +--------+-------+
 14 rows in set (0.00 sec)
 
+
+
+--calculating difference in current date and mentioned date
 mysql> select datediff(curdate(),'1998-07-08');
 +----------------------------------+
 | datediff(curdate(),'1998-07-08') |
