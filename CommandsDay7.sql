@@ -21,6 +21,7 @@ mysql> select * from dept;
 +--------+------------+----------+
 4 rows in set (0.02 sec)
 
+--displaying dept table
 mysql> select * from dept1;
 +--------+---------+--------+
 | deptno | dname   | loc    |
