@@ -125,4 +125,4 @@ mysql> show tables;
 | v3             |
 | v4             |
 +----------------+
-18 rows in set (0.02 sec)
+
