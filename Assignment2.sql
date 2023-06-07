@@ -107,7 +107,7 @@ mysql> select city from customers;
 | Nashik |
 +--------+
 10 rows in set (0.00 sec)
-
+--distinct specifies unique
 mysql> select distinct country from customers;
 +---------+
 | country |
