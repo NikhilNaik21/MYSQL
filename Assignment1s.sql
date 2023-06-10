@@ -17,7 +17,10 @@ insert into DEPT values (101,'ACCOUNTING','PUNE'),
 (104,'OPERATIONS','DELHI'),
 (105,'PROGRAMMER','KOLKATA');
 
+-- retrive data from department table
 select * from DEPT;
+
+-- creating employee table
 create table EMP( EMPNO int primary key Not null,
 ENAME varchar(20),
 JOB varchar(10),
