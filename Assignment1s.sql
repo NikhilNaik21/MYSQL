@@ -30,8 +30,14 @@ AADHAR int(10) unique ,
 DEPTNO int(10) ,
 foreign key(DEPTNO) references DEPT(DEPTNO)
 );
+
+-- to show employee records
 select * from EMP;
+
+-- to check employee tables structure
 desc EMP;
+
+-- alter statment to modfiy data type of empno column
 alter table EMP modify column EMPNO varchar(20);
 insert into EMP(EMPNO, ENAME,JOB,HIREDATE,SALARY,AADHAR,DEPTNO) values('E01','ARUN','CLERK','2001-12-17',5000,4562,101);
 insert into EMP(EMPNO, ENAME,JOB,HIREDATE,SALARY,AADHAR,DEPTNO) values('E02','RAJ','SALESMAN','2000-04-22',6000,4552,103),
