@@ -32,8 +32,9 @@ foreign key(DEPTNO) references DEPT(DEPTNO)
 );
 
 -- to show employee records
-                                                                    select * from EMP;
-
+```
+ select * from EMP;
+```
 -- to check employee tables structure
 desc EMP;
 
