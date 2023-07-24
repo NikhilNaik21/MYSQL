@@ -42,6 +42,7 @@ create procedure insertEmployees(IN EMPNO decimal(4,0) ,
  call insertEmployees(20,'Nikhil', 'IT' , 20 , '2023-08-28',70000,5000,10,@flag);
 ```
 select * from emp;
+
 To call procedure
 
 ```
